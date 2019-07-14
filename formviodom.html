@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<style>
+.centralizar {
+max-width: 500px;
+margin: auto;
+}
+
+</style>
+<meta charset="UTF-8"/>
+</head>
+<body style="background-color:rgb(135, 226, 238);"> 
+    <div class="centralizar">
+    <div>
+        <h1  style="color:rgb(20, 40, 42)">Escolha a Opção Desejada</h1>
+        <br>
+    </div>
+    <div>
+        <form method="GET" action="ano.php">
+            <br> 
+            Insira o Ano:<input type="text" name="ano"  style="color:rgb(20, 40, 42)">
+            <br>
+            <input type="submit" value="Checar" style="color:rgb(20, 40, 42)"/>
+            <br>
+            
+        </form>
+    </div>
+    <div>
+            
+            <form method="POST" action="localidade.php">
+                <br>
+                Insira a Localidade:<input type="text" name="local"  style="color:rgb(20, 40, 42)">
+                <br>
+                <input type="submit" value="Checar"  style="color:rgb(20, 40, 42)">
+            </form>
+    </div>
+    </div>
+</body> 
+
+   
+</html>
